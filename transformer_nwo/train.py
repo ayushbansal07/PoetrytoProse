@@ -166,10 +166,13 @@ if __name__ == '__main__':
                 # monitoring
                 if step % 100 == 0:
                     _x, _y, _preds, _alignments, _gs = sess.run([g.x, g.y, g.preds, g.alignments, g.global_step])
-                    print("\ninput=", " ".join(idx2word[idx] for idx in _x[0]))
-                    print("expected=", " ".join(idx2word[idx] for idx in _y[0]))
-                    print("got=", " ".join(idx2word[idx] for idx in _preds[0]))
-                    plot_alignment(_alignments[0], _gs)
+                    try:
+                    	print("\ninput=", " ".join(idx2word[idx] for idx in _x[0]))
+                    	print("expected=", " ".join(idx2word[idx] for idx in _y[0]))
+                    	print("got=", " ".join(idx2word[idx] for idx in _preds[0]))
+                    	plot_alignment(_alignments[0], _gs)
+                    except:
+                    	pass
 
 
             gs = sess.run(g.global_step)
