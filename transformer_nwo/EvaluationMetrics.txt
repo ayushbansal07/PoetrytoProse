@@ -1,8 +1,8 @@
 File name: model_epoch_03_gs_11580
 
-Pairwise Precision: 0.9775922804881587
-Pairwise Recall: 0.9716114234161545
-Pairwise F-Score: 0.974592676243316
+Pairwise Precision: 0.9390801988454275
+Pairwise Recall: 0.9382152695317001
+Pairwise F-Score: 0.9386475349384377
 
 LSR Precision: 0.9769530382596855
 LSR Recall: 0.9769530382596855
@@ -24,9 +24,9 @@ PMR: 1.0
 --------------------------
 File name: model_epoch_04_gs_552500
 
-Pairwise Precision: 0.9982909202872484
-Pairwise Recall: 0.9980471681320182
-Pairwise F-Score: 0.9981690293286085
+Pairwise Precision: 0.9963184064932022
+Pairwise Recall: 0.9962835083153966
+Pairwise F-Score: 0.9963009570986984
 
 LSR Precision: 0.9982825661180924
 LSR Recall: 0.9982825661180924
@@ -36,9 +36,9 @@ PMR: 0.9934375
 --------------------------
 File name: model_epoch_02_gs_7720
 
-Pairwise Precision: 0.8848122037210603
-Pairwise Recall: 0.8671612983173125
-Pairwise F-Score: 0.8758978357298828
+Pairwise Precision: 0.7488668323607695
+Pairwise Recall: 0.7463537484335857
+Pairwise F-Score: 0.747608178471049
 
 LSR Precision: 0.8915183664039255
 LSR Recall: 0.8915183664039255
@@ -48,9 +48,9 @@ PMR: 0.555625
 --------------------------
 File name: model_epoch_01_gs_55250
 
-Pairwise Precision: 0.7315140245458651
-Pairwise Recall: 0.726646439743542
-Pairwise F-Score: 0.7290721077364549
+Pairwise Precision: 0.5870421525752152
+Pairwise Recall: 0.5864407958433212
+Pairwise F-Score: 0.5867413201252571
 
 LSR Precision: 0.7673033059773079
 LSR Recall: 0.7673033059773079
