@@ -91,7 +91,7 @@ def load_data_test():
     word2idx, idx2word = load_vocab_test()
 
     Y = []
-    for line in codecs.open('src.txt', 'r', 'utf-8'):
+    for line in codecs.open('src_test.txt', 'r', 'utf-8'):
         sent = line.strip().split(" ")
         sent = sent[1:]
         sent = ' '.join(sent)
@@ -103,7 +103,7 @@ def load_data_test():
             # if 0 not in sent_ids: # We do not include a sentence if it has any unknown words.
             Y.append(np.array(sent_ids, np.int32).tostring())
     X = []
-    for line in codecs.open('trg.txt', 'r', 'utf-8'):
+    for line in codecs.open('trg_test.txt', 'r', 'utf-8'):
         sent = line.strip().split(" ")
         sent = sent[1:]
         sent = ' '.join(sent)

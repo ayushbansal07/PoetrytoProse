@@ -1,7 +1,7 @@
 class Hyperparams:
     '''Hyperparameters'''
     # data
-    data = 'data/prose_clean.bpe.txt'
+    data = 'data/raw_input.bpe.txt'
 
     # training
     batch_size = 32 # alias = N
